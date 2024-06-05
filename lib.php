@@ -442,6 +442,7 @@ class format_multitopic extends core_courseformat\base {
             }
             $daystring = $daystring . ': ';
         }
+        $daystring = ''; // JP added - don't want this string added
         // END ADDED.
 
         if ((string)$section->name !== '') {
